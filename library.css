@@ -1,0 +1,37 @@
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    z-index: 5;
+    top: 10;
+    position: relative;
+}
+.button{
+    border-radius: 20px;
+    padding: 8px 5px;
+    background-color: orangered;
+    border:  solid 2px orangered;
+}
+h1{
+    color: rgb(2, 2, 63);
+    font-size: 3rem;
+}
+p{
+    color: grey;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+.navbar, .hero, .grid-section, .testimonials, .simplify, .footer-section{
+    padding: 2% 8%;
+}
+.bullet{
+    margin-right: 10px;
+    background-color: orangered;
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}

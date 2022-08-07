@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+/* Normalizing the page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: url(./bg-tablet-pattern.svg) no-repeat 100% -15%,
+    url(./bg-tablet-pattern.svg) no-repeat -15% 100%;
+  background-size: 600px;
+  line-height: 1.6;
+}
+/* setting up navigation bar */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin-right: 10px;
+}
+nav a {
+  padding: 10px;
+  color: grey;
+  font-size: 1rem;
+  text-decoration: none;
+}
+nav button a {
+  color: white;
+}
+/* hero section */
+.hero a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1rem;
+}
+/* Grid section */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.flex {
+  display: flex;
+}
+/* testimonial section begins here */
+.testimonials {
+  text-align: center;
+}
+.testimonials h1 {
+  padding-bottom: 30px;
+}
+.testimonials h3{
+  color: rgb(7, 7, 82);
+}
+.testimonials img {
+  width: 200px;
+}
+.testimonials a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1rem;
+}
+/* simplify section starts here */
+.simplify {
+  background-color: orangered;
+  color: white;
+}
+.simplify a {
+  color: orangered;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 20px;
+  font-style: bold;
+}
+/* footer section */
+.footer-section {
+  background-color: rgb(46, 45, 45);
+}
+.footer-section ul {
+  list-style: none;
+  margin-right: 10px;
+}
+.footer-section a {
+  color: white;
+  padding-top: 20px;
+}
+.footer-section a i {
+  margin-right: 5px;
+}
+.footer-section input{
+padding: 10px;
+border-radius: 20px;
+text-align: center;
+border: solid 2px white;
+}
+.footer-section button{
+    border-radius: 20px;
+    padding: 10px 13px;
+    background-color: orangered;
+    border:  solid 2px orangered;
+}
